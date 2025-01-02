@@ -1,0 +1,5 @@
+# config/schedule.yml
+my_cron_job:
+  cron: "*/5 * * * *" # Runs every 5mins
+  class: "NotifyAuctionResultJob"
+  queue: default

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uuid: MyString
+  max_amount: 9.99
+  user: one
+  auction_item: one
+
+two:
+  uuid: MyString
+  max_amount: 9.99
+  user: two
+  auction_item: two
